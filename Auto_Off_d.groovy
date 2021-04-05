@@ -17,7 +17,7 @@
  *  for the specific language governing permissions and limitations under the License.
  *
  */
-	public static String version()      {  return "v1.0.1"  }
+	public static String version()      {  return "v1.0.2"  }
 
 import groovy.time.*
 
@@ -130,6 +130,7 @@ def switchHandler(evt) {
 	def oNow = now() // grab time object: one exact same time then compare and display.
 	// Add the watched device if turning on, or off if inverted mode
 	if ((evt.value == "on") ^ (invert == true)) {
+	    state.delay = state?.delay ?: Math.floor(autoTime * 60).toInteger()
 	    runIn(state.delay, scheduleHandler, [overwrite: false])
 	    atomicState.cycleEnd = oNow + autoTime * 60 * 1000
 	    state.offList[evt.device.id] = oNow + autoTime * 60 * 1000
