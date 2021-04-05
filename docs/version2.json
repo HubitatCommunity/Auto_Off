@@ -4,9 +4,9 @@
         "copyright": " &#9400; 2020 cSteele",
          "application": {
                "Auto_Off":  {"ver": "1.0.2", "updated": "10/29/2020"},
-               "Auto_Off_c":  {"ver": "1.0.4", "updated": "10/29/2020"},
+               "Auto_Off_c":  {"ver": "1.0.5", "updated": "04/05/2021"},
                "Auto_Off_o":  {"ver": "1.0.2", "updated": "10/29/2020"},
-               "Auto_Off_d":  {"ver": "1.0.1", "updated": "10/29/2020"}
+               "Auto_Off_d":  {"ver": "1.0.2", "updated": "04/05/2021"}
          },
          "driver": {
          }
