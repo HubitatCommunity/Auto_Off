@@ -3,7 +3,7 @@
   "author": "csteele",
   "minimumHEVersion": "0.0",
   "dateReleased": "2020-10-11",
-  "bundle": [
+  "bundles": [
     {
       "id": "d3976e5a-c074-4f10-a6d8-373387de1a0c",
       "name": "Auto_Off device",
