@@ -49,10 +49,8 @@
       "id": "d3976e5a-c074-4f10-a6d8-373387de1a0c",
       "name": "Auto_Off device",
       "namespace": "csteele",
-      "location": "https://raw.githubusercontent.com/HubitatCommunity/Auto_Off/main/Auto_OffBundle.zip",      
-      "required": false,
-      "oauth": false,
-      "primary": false
+      "location": "https://github.com/HubitatCommunity/Auto_Off/raw/main/Auto_OffBundle.zip",      
+      "required": false
     }
   ]
 }
