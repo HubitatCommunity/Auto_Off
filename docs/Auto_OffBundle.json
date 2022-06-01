@@ -3,6 +3,9 @@
   "author": "csteele",
   "minimumHEVersion": "0.0",
   "dateReleased": "2020-10-11",
+	"releaseNotes": "- packaged into a Bundle.\n- added second child for dimmers",
+	"documentationLink": "https://github.com/HubitatCommunity/Auto_Off/blob/main/README.md",
+	"communityLink": "https://community.hubitat.com/t/release-auto-off-another-choice-to-automatically-turn-off-devices-after-set-amount-of-time-on/52905",
   "bundles": [
     {
       "id": "d3976e5a-c074-4f10-a6d8-373387de1a0c",
