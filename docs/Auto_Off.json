@@ -2,7 +2,7 @@
   "packageName": "Auto_Off",
   "author": "csteele",
   "dateReleased": "2020-10-11",
-  "releaseNotes": "- added second child for dimmers",
+  "releaseNotes": "- corrected a debug line\n- added second child for dimmers",
   "documentationLink": "https://github.com/HubitatCommunity/Auto_Off/blob/main/README.md",
   "communityLink": "https://community.hubitat.com/t/release-auto-off-another-choice-to-automatically-turn-off-devices-after-set-amount-of-time-on/52905",
   "apps": [
