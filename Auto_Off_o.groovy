@@ -17,7 +17,7 @@
  *  for the specific language governing permissions and limitations under the License.
  *
  */
-	public static String version()      {  return "v1.0.2"  }
+	public static String version()      {  return "v1.0.3"  }
 
 import groovy.time.*
 
@@ -213,7 +213,7 @@ def updateMyLabel(c) {
 		atomicState.cycleEnd = 0
 	}
 
-	if (app.label != myLabel) app.updateLabel(myLabel) ; log.debug "label: $myLabel"
+	if (app.label != myLabel) app.updateLabel(myLabel) // log.debug "label: $myLabel"
 }
 
 
