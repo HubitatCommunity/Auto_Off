@@ -12,6 +12,7 @@
       "name": "Auto_Off Bundle",
       "namespace": "csteele",
       "location": "https://github.com/HubitatCommunity/Auto_Off/raw/main/Auto_OffBundle.zip",
+      "version": "1.0.2",
       "required": true
     }
   ]
